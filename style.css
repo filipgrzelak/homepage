@@ -1,0 +1,29 @@
+body{
+    background: #cad80a;
+}
+
+section{
+    background: white;
+ 
+}
+
+h1{
+    color:gray;
+}
+
+p{
+    color:brown;
+}
+
+h2{
+    color: chartreuse;
+}
+
+h3{
+    color: crimson;
+}
+
+footer{
+    color: pink;
+}
+
