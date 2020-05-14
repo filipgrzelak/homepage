@@ -1,34 +1,55 @@
 body{
     background: #cad80a;
     color:darkred;
+    box-sizing: border-box;
 }
 
-section{
-    background: white;
- 
+#main{
+    margin:auto;
+    width:1000px;
 }
 
-h1{
-    color:gray;
+.navigation{
+    background: #169636;
+    padding: 16px;
+    border-radius: 5px;
 }
 
-p{
-    color:brown;
+.navigation__link{
+    color:white;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
 }
 
-h2{
-    color: chartreuse;
+.navigation__link--homepage{
+    background: #9c0c0c;
 }
 
-h3{
-    color: crimson;
+.secondary-heading{
+    padding: 16px;
+    margin: 0;
 }
 
-footer{
-    color: pink;
+.week-summary{
+    border:1px solid #169636;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    padding: 16px;
+    background:#42f06d;
 }
 
-img{
-    width: 280px;
-    height: 330px;
+.week-summary__title{
+    color: #169636;
+    margin: 0;
+}
+
+.week-summary__description{
+    color: #68b8ec;
+}
+
+.header{
+    margin: auto;
+    position:sticky;
+    top:0;
 }
